@@ -12,12 +12,12 @@ module.exports = {
     title: `MikanDev's Skill Issue Log`,
     author: {
       name: `MikanDev`,
-      summary: `Person with skill issue`,
+      summary: `who is a person with skill issue`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `kunkunmaamo`,
     },
   },
   plugins: [
