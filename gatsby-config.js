@@ -14,7 +14,7 @@ module.exports = {
       name: `MikanDev`,
       summary: `who is a person with skill issue`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `MikanDev's blog f skill issues`,
     siteUrl: `https://blog.mikn.dev/`,
     social: {
       twitter: `kunkunmaamo`,
