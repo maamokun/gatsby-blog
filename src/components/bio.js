@@ -46,8 +46,8 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You shouldnt follow them on Twitter like wtf why would anyone do that
+          <a href={`https://sumerucity.com/@maamokun`}>
+            Twitter sucks, I have a Misskey server now
           </a>
         </p>
       )}
