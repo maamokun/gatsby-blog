@@ -100,7 +100,7 @@ app.listen(PORT, () => {
 });
 ```
 
-This revised version of the code uses the `node-cache` module to cache responses with a TTL of 1 hour instead of scraping for them every time. This will help avoid my server getting ratelimited by YouTube.
+This revised version of the code uses the `node-cache` module to cache responses with a TTL of 1 hour instead of scraping for them every time. This will help avoid my server getting ratelimited by YouTube. With that, I modified my Workers script to make a request to a hosted version of this API instead of YouTube's own, and with that, my links were back in action!
 
 # Conclusion
 What seemed to be a very simple project turned out to be a little more difficilt than expected, and taught me a thing or two about how to do basic web scraping. I think that these skills can be useful to me in my other projects as well!
