@@ -22,6 +22,7 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
+      <script async src="https://analytics.mikandev.tech/script.js" data-website-id="a3242408-bacf-446a-9f24-2805db550131"></script>
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
